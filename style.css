@@ -45,6 +45,11 @@ label{
     border: none;
     border-radius: 5px;
     color:black;
+    transition: transform 0.3s;
+}
+#log:hover {
+  transform: scale(1.1);
+  background-color:rgba(60, 147, 94, 0.931) ;
 }
 span{
     color: white;
